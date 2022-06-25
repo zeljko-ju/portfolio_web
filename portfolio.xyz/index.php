@@ -14,6 +14,7 @@
 <body>
 
   <div class="off-canvas-wrapper">
+    <!--start tijelo-->
     <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
       <div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
@@ -23,6 +24,7 @@
 
           <h3>About Me</h3>
           <h5>Education</h5>
+          
           <ul class="tockica">
             <li>Elektrotehnička škola Nova Gradiška 2006-2010</li>
             <li class="tockica">Fakultet organizacije i informatike 2010-2012
@@ -42,6 +44,7 @@
         <div class="callout primary">
           <div class="row column">
             <h2>Hello, my name is Željko Jukić</h2>
+            <a href="/test1.php">klik</a>
             <p class="lead">Welcome to my portfolio webpage! I'm PHP student at Edunova aiming to become full stack
               developer.</p>
           </div>
@@ -126,12 +129,12 @@
       </div>
     </div>
   </div>
-
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
-  <script>
-    $(document).foundation();
-  </script>
+  <!--podnožje start-->
+ <?php include_once 'podnozje.php'?>
+<!--podnožje end-->
+<!--skripte-->
+ <?php require_once 'jsskripte.php'?>
+  
 </body>
 
 </html>
